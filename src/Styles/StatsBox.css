@@ -1,0 +1,49 @@
+.statsBox:nth-child(1) {
+    background: red;
+   }
+   
+   .statsBox .MuiPaper-root{
+     margin: 0 10px;
+     padding: 0 10px;
+   }
+   
+   
+   
+   
+   /* .MuiCardContent-root:hover{
+    background: beige;
+   } */
+   
+   .MuiCardContent-root.cases, .MuiCardContent-root.deaths{
+     border-bottom: 10px solid red;
+     cursor: pointer;
+   }
+   
+   .MuiCardContent-root.recovered{
+     border-bottom: 10px solid rgb(101, 255, 87);
+     cursor: pointer;
+   }
+   
+   .MuiCardContent-root.vaccinated{
+     border-bottom: 10px solid rgb(3, 18, 150);
+   }
+   
+
+   /*HOVER*/
+
+   .MuiCardContent-root.cases:hover, .MuiCardContent-root.deaths:hover{
+    color:red;
+    cursor: pointer;
+  }
+
+   .MuiCardContent-root.recovered:hover{
+    color: rgb(101, 255, 87);
+  }
+
+   .MuiCardContent-root.vaccinated:hover{
+    color:rgb(3, 18, 150);  }
+   
+   .timestamp{
+     margin: 3px;
+   }
+   

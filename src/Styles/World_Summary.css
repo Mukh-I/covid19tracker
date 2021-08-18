@@ -1,0 +1,50 @@
+.world__summary{
+    margin: 20px 0;
+    width: 100%;
+    
+}
+
+.world__summary h3{
+    margin: 20px;
+    font-size: 22px;
+}
+
+
+.world__summary__content{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+.world__summary__content h4{
+  margin: 15px 0;
+}
+
+.world__summary__content .MuiCardContent-root{
+   width: 200px;
+   text-align: center;
+}
+
+
+@media (max-width: 990px){
+  
+    .world__summary__content{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 517px) {
+    .world__summary__content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .world__summary__content .MuiCardContent-root{
+        width: 250px;
+     }
+     
+}
+
+

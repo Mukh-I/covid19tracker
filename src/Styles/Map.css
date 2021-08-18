@@ -1,0 +1,24 @@
+.map{
+    height: 400px;
+    background: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0,0,0,0.5);
+}
+
+.map .leaflet-container {
+    height: 100%;
+}
+
+.leaflet-popup-content-wrapper{
+    background:linear-gradient(#55bef3, #72f8ed);;
+}
+
+.leaflet-popup-content-wrapper h3{
+    color: white;
+}
+
+.leaflet-popup-content-wrapper h4{
+    color: rgba(0,0,0,0.54);
+}

@@ -1,0 +1,13 @@
+.lineGraph{
+    margin: 20px 0;
+    padding: 2px;
+    height: 250px;
+  
+  }
+  .lineGraph h4{
+    margin-bottom: 10px;
+  }
+
+  .MuiCardContent-root .lineGraph_Card{
+    flex: 1;
+  }
