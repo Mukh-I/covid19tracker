@@ -47,3 +47,12 @@
      margin: 3px;
    }
    
+   @media (max-width: 400px){
+    .MuiCardContent-root.cases, .MuiCardContent-root.deaths, .MuiCardContent-root.recovered, .MuiCardContent-root.vaccinated {
+      width: 150px;
+      margin: 20px 0;
+  }
+  .MuiCardContent-root.cases, .MuiCardContent-root.deaths, .MuiCardContent-root.recovered, .MuiCardContent-root.vaccinated {
+   margin: 20px 0;
+}
+   }

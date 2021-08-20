@@ -47,4 +47,14 @@
      
 }
 
+@media (max-width: 400px) {
+    .world__summary__content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .world__summary__content .MuiCardContent-root{
+        width: 150px;
+     }
+     
+}
 

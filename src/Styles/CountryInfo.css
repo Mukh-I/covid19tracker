@@ -35,3 +35,20 @@
     margin: 10px 0;
   }
   
+
+  @media (max-width: 400px) {
+
+
+    .MuiCardContent-root.countryInfo__cardContent{
+     width: 300px;
+    }
+
+    .MuiCardContent-root.countryInfo__cardContent img{
+      width: 220px;
+     }
+     
+    .MuiCardContent-root.countryInfo__cardContent h2{
+      font-size: 30px;
+     }
+    
+  }

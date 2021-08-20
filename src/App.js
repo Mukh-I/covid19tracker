@@ -66,13 +66,14 @@ function App() {
       const url = selectedCountry === 'worldwide' ? 'https:disease.sh/v3/covid-19/all' : `https:disease.sh/v3/covid-19/countries/${selectedCountry}?strict=true`
 
       await fetch(url)
-      console.log(url)
       .then (response => response.json())
       .then(data => {
           setCountry(selectedCountry)
           setCountryInfo(data)
           console.log(data)
           console.log(data.country)
+                console.log(url)
+
           setCenter({lat: data.countryInfo.lat, lng: data.countryInfo.long})
           setZoom(4)
          

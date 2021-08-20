@@ -126,6 +126,7 @@ body{
 
 @media (max-width: 517px) {
 
+
   .MuiCardContent-root.countryInfo__cardContent{
     width: 350px;
     padding-left: 40px;
@@ -133,7 +134,7 @@ body{
 
   .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded{
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .MuiCardContent-root.cases, .MuiCardContent-root.deaths,
  .MuiCardContent-root.recovered, .MuiCardContent-root.vaccinated{
